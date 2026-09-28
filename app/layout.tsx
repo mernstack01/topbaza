@@ -25,7 +25,7 @@ const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://blog-post-iota-three
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "TopBaza.uz - Sirdaryo va O'zbekiston Kadrlar, Maskonlar va Xizmatlar Portali",
+    default: "TopBaza.uz - Sirdaryo va O'zbekiston Xizmatlar va maskanlar Portali",
     template: "%s | TopBaza.uz",
   },
   description:
@@ -45,14 +45,20 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'TopBaza.uz' }],
   creator: 'TopBaza.uz',
+  applicationName: 'TopBaza.uz',
+  appleWebApp: {
+    capable: true,
+    title: 'TopBaza.uz',
+    statusBarStyle: 'default',
+  },
   icons: {
     icon: [
       { url: '/icon.png', sizes: '64x64', type: 'image/png' },
-      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
-      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+      { url: '/topbaza-icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/topbaza-icon-512.png', sizes: '512x512', type: 'image/png' },
     ],
     apple: [
-      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/topbaza-apple-icon.png', sizes: '180x180', type: 'image/png' },
     ],
     shortcut: '/icon.png',
   },
@@ -61,7 +67,7 @@ export const metadata: Metadata = {
     locale: 'uz_UZ',
     url: baseUrl,
     siteName: 'TopBaza.uz',
-    title: 'TopBaza.uz - Sirdaryo va O\'zbekiston Kadrlar, Maskonlar va Xizmatlar Portali',
+    title: 'TopBaza.uz - Sirdaryo va O\'zbekiston Xizmatlar va maskanlar Portali',
     description: "Sirdaryo viloyatining barcha mutaxassislari, kadrlar, ziyorat va dam olish maskanlari, o'quv markazlari hamda xizmatlar bazasi.",
     images: [
       {
@@ -131,4 +137,3 @@ export default async function RootLayout({
     </html>
   );
 }
-
