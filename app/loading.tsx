@@ -26,14 +26,16 @@ export default function Loading() {
             />
             
             {/* Markazdagi brend nishoni */}
-            <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white flex items-center justify-center shadow-md shadow-blue-500/30">
-              <span className="text-xs font-black tracking-tight">T</span>
-            </div>
+            <img
+              src="/uzmo-icon-192.png"
+              alt="UzMO.uz"
+              className="w-9 h-9 sm:w-11 sm:h-11 rounded-full object-cover shadow-md shadow-blue-500/30"
+            />
           </div>
 
           {/* Brend nomi va yuklanish matni */}
           <h3 className="text-base sm:text-lg font-black text-[#282624] dark:text-zinc-100 tracking-tight mb-1.5">
-            TopBaza<span className="text-blue-600 dark:text-blue-400">.uz</span>
+            <span className="text-blue-700 dark:text-blue-400">Uz</span><span className="text-orange-500">MO</span><span className="text-blue-700 dark:text-blue-400">.uz</span>
           </h3>
 
           <p className="text-xs font-semibold text-[#67625d] dark:text-zinc-400 flex items-center gap-1.5" suppressHydrationWarning>

@@ -29,10 +29,10 @@ interface AdminSettingsClientProps {
 export default function AdminSettingsClient({ initialSettings }: AdminSettingsClientProps) {
   const [settings, setSettings] = useState<SystemSettingsData>(initialSettings);
   const [formData, setFormData] = useState({
-    siteTitle: initialSettings.siteTitle || 'TopBaza.uz',
+    siteTitle: initialSettings.siteTitle || 'UzMO.uz',
     contactPhone: initialSettings.contactPhone || '+998 90 123 45 67',
     telegramUsername: initialSettings.telegramUsername || 'topbaza_admin',
-    supportEmail: initialSettings.supportEmail || 'info@topbaza.uz',
+    supportEmail: initialSettings.supportEmail || 'info@uzmo.uz',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [message, setMessage] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
@@ -172,7 +172,7 @@ export default function AdminSettingsClient({ initialSettings }: AdminSettingsCl
                   required
                   value={formData.siteTitle}
                   onChange={(e) => setFormData({ ...formData, siteTitle: e.target.value })}
-                  placeholder="TopBaza.uz"
+                  placeholder="UzMO.uz"
                   className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-border bg-secondary/40 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-primary"
                 />
               </div>
@@ -235,7 +235,7 @@ export default function AdminSettingsClient({ initialSettings }: AdminSettingsCl
                   required
                   value={formData.supportEmail}
                   onChange={(e) => setFormData({ ...formData, supportEmail: e.target.value })}
-                  placeholder="info@topbaza.uz"
+                  placeholder="info@uzmo.uz"
                   className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-border bg-secondary/40 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-primary"
                 />
               </div>
@@ -274,7 +274,7 @@ export default function AdminSettingsClient({ initialSettings }: AdminSettingsCl
 
             <div className="p-4 rounded-2xl bg-secondary/30 border border-border space-y-3">
               <div className="font-extrabold text-foreground text-base">
-                {formData.siteTitle || 'TopBaza.uz'}
+                {formData.siteTitle || 'UzMO.uz'}
               </div>
               <p className="text-xs text-muted-foreground leading-relaxed">
                 Sirdaryo va butun O'zbekiston bo'ylab eng yaxshi mutaxassislar, kadrlar va xizmatlar platformasi.
@@ -299,7 +299,7 @@ export default function AdminSettingsClient({ initialSettings }: AdminSettingsCl
                   <div className="w-7 h-7 rounded-lg bg-emerald-500/10 text-emerald-600 flex items-center justify-center shrink-0">
                     <Mail className="w-3.5 h-3.5" />
                   </div>
-                  <span className="truncate">{formData.supportEmail || 'info@topbaza.uz'}</span>
+                  <span className="truncate">{formData.supportEmail || 'info@uzmo.uz'}</span>
                 </div>
               </div>
             </div>

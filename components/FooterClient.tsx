@@ -42,17 +42,11 @@ export default function FooterClient({
           {/* Logo va tavsif */}
           <div className="md:col-span-1 space-y-4">
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 rounded-full overflow-hidden ring-1.5 ring-border shadow-xs group-hover:scale-105 transition-transform shrink-0 bg-white">
-                <img
-                  src="/logo.jpg"
-                  alt="TopBaza.uz"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <span className="text-lg font-bold tracking-tight text-foreground">
-                {siteTitle.replace(/\.uz$/i, '')}
-                <span className="text-primary font-extrabold">.uz</span>
-              </span>
+              <img
+                src="/uzmo-logo.jpg"
+                alt={siteTitle}
+                className="h-14 w-auto rounded-xl shadow-xs group-hover:scale-105 transition-transform shrink-0"
+              />
             </Link>
             <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
               {t.footer.about}

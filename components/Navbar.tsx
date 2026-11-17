@@ -34,17 +34,12 @@ export default function Navbar() {
           {/* Logo va Jonli nishon */}
           <div className="flex items-center gap-3 sm:gap-4">
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden ring-1.5 ring-blue-500/20 shadow-xs group-hover:scale-105 transition-transform shrink-0 bg-white">
-                <img
-                  src="/logo.jpg"
-                  alt="TopBaza.uz"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <img
+                src="/uzmo-logo.jpg"
+                alt="UzMO.uz"
+                className="h-9 sm:h-11 w-auto rounded-lg shadow-xs group-hover:scale-105 transition-transform shrink-0"
+              />
               <div className="flex flex-col">
-                <span className="text-base sm:text-lg font-extrabold tracking-tight text-[#1e293b] flex items-center gap-1">
-                  TopBaza<span className="text-blue-600 font-black">.uz</span>
-                </span>
                 <span className="text-[10px] text-[#64748b] font-medium hidden sm:block -mt-1">
                   {t.hero.titleHighlight}
                 </span>

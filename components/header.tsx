@@ -42,18 +42,11 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <Link href="/" className="flex items-center gap-2 group">
-              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden ring-1.5 ring-primary/20 shadow-xs group-hover:scale-105 transition-transform shrink-0 bg-white">
-                <img
-                  src="/logo.jpg"
-                  alt="TopBaza.uz"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-base sm:text-lg font-black tracking-tight text-foreground flex items-center">
-                  TopBaza<span className="text-blue-600 dark:text-blue-400">.uz</span>
-                </span>
-              </div>
+              <img
+                src="/uzmo-logo.jpg"
+                alt="UzMO.uz"
+                className="h-9 sm:h-11 w-auto rounded-lg shadow-xs group-hover:scale-105 transition-transform shrink-0"
+              />
             </Link>
 
             {/* Jonli hudud nishoni (Desktop) */}

@@ -27,7 +27,7 @@ export const PrivilegeType = {
 };
 
 /**
- * TopBaza.uz: Ko'p omillik reyting va ball hisoblash tizimi
+ * UzMO.uz: Ko'p omillik reyting va ball hisoblash tizimi
  *
  * Mezoni:
  * - Xodim / Admin xulosasi: max 40 ball

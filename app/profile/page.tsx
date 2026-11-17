@@ -5,8 +5,8 @@ import ProfileClient from '@/components/ProfileClient';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: "Foydalanuvchi Profili - TopBaza.uz",
-  description: "TopBaza.uz kadrlar va xizmatlar portali foydalanuvchisi shaxsiy kabineti, e'lonlar statistikasi va profil sozlamalari.",
+  title: "Foydalanuvchi Profili - UzMO.uz",
+  description: "UzMO.uz kadrlar va xizmatlar portali foydalanuvchisi shaxsiy kabineti, e'lonlar statistikasi va profil sozlamalari.",
 };
 
 export default async function ProfilePage() {

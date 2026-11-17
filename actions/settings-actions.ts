@@ -16,8 +16,8 @@ export interface SystemSettingsData {
 const DEFAULT_SETTINGS = {
   contactPhone: "+998 97 331 47 17",
   telegramUsername: "topbaza_admin",
-  supportEmail: "info@topbaza.uz",
-  siteTitle: "TopBaza.uz",
+  supportEmail: "info@uzmo.uz",
+  siteTitle: "UzMO.uz",
 };
 
 /**
@@ -77,7 +77,7 @@ export async function updateSystemSettingsAction(data: {
     const contactPhone = data.contactPhone.trim();
     const telegramUsername = data.telegramUsername.trim().replace(/^@/, '');
     const supportEmail = data.supportEmail.trim();
-    const siteTitle = data.siteTitle?.trim() || 'TopBaza.uz';
+    const siteTitle = data.siteTitle?.trim() || 'UzMO.uz';
 
     if (!contactPhone || !telegramUsername || !supportEmail) {
       return { success: false, message: "Barcha aloqa maydonlarini to'ldirish shart." };

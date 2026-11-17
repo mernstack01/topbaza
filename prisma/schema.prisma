@@ -124,8 +124,8 @@ model SystemSetting {
   id                String    @id @default(auto()) @map("_id") @db.ObjectId
   contactPhone      String    @default("+998 90 123 45 67")
   telegramUsername  String    @default("topbaza_admin")
-  supportEmail      String    @default("info@topbaza.uz")
-  siteTitle         String?   @default("TopBaza.uz")
+  supportEmail      String    @default("info@uzmo.uz")
+  siteTitle         String?   @default("UzMO.uz")
   updatedAt         DateTime  @updatedAt
 
   @@map("system_settings")

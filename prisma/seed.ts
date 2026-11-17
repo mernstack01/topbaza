@@ -19,8 +19,8 @@ async function main() {
     data: {
       contactPhone: "+998 90 123 45 67",
       telegramUsername: "topbaza_admin",
-      supportEmail: "info@topbaza.uz",
-      siteTitle: "TopBaza.uz",
+      supportEmail: "info@uzmo.uz",
+      siteTitle: "UzMO.uz",
     },
   });
 

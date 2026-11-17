@@ -262,7 +262,7 @@ export default function AdminDashboardClient({
             </span>
           </div>
           <h1 className="text-xl sm:text-2xl font-black text-foreground tracking-tight mt-1">
-            TopBaza.uz Boshqaruv Markazi
+            UzMO.uz Boshqaruv Markazi
           </h1>
         </div>
 
