@@ -43,9 +43,9 @@ export default function FooterClient({
           <div className="md:col-span-1 space-y-4">
             <Link href="/" className="flex items-center gap-2.5 group">
               <img
-                src="/uzmo-logo.jpg"
+                src="/uzmo-logo.png"
                 alt={siteTitle}
-                className="h-14 w-auto rounded-xl shadow-xs group-hover:scale-105 transition-transform shrink-0"
+                className="h-14 w-auto rounded-xl dark:bg-white dark:px-2 dark:py-1 group-hover:scale-105 transition-transform shrink-0"
               />
             </Link>
             <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">

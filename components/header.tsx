@@ -43,9 +43,9 @@ export function Header() {
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <Link href="/" className="flex items-center gap-2 group">
               <img
-                src="/uzmo-logo.jpg"
+                src="/uzmo-logo.png"
                 alt="UzMO.uz"
-                className="h-9 sm:h-11 w-auto rounded-lg shadow-xs group-hover:scale-105 transition-transform shrink-0"
+                className="h-9 sm:h-11 w-auto rounded-lg dark:bg-white dark:px-1.5 dark:py-0.5 group-hover:scale-105 transition-transform shrink-0"
               />
             </Link>
 

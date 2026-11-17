@@ -71,9 +71,9 @@ export const metadata: Metadata = {
     description: "Sirdaryo viloyatining barcha mutaxassislari, kadrlar, ziyorat va dam olish maskanlari, o'quv markazlari hamda xizmatlar bazasi.",
     images: [
       {
-        url: '/uzmo-logo.jpg',
-        width: 887,
-        height: 417,
+        url: '/uzmo-og.png',
+        width: 1200,
+        height: 630,
         alt: 'UzMO.uz Xizmatlar Portali Logosi',
       },
     ],
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'UzMO.uz',
     description: "Guliston va Sirdaryo viloyatining barcha xizmatlari va ustalari bir joyda.",
-    images: ['/uzmo-logo.jpg'],
+    images: ['/uzmo-og.png'],
   },
   robots: {
     index: true,
